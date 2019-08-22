@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple/"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+pytest = ">=2.8.0,<=3.10.1"
+tox = "*"
+detox = "*"
+click = "==7.*"
+
+[packages]
+blogger = {editable = true,path = "."}
+colorama = "==0.*"
+gTTS = "==2.0.*"
+beautifulsoup4 = "==4.*"
+html2text = "*"
+lxml = "*"
