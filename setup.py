@@ -1,11 +1,13 @@
-# !/usr/bin/env python
+# !/usr/bin/env python3
 
-from distutils.core import setup
+from setuptools import setup
+from blogger import __version__
 
 setup(
     name="blogger",
     packages=[],
-    version="0.0.1",
+    version=__version__,
+    setup_requires=['wheel'],
     description="Command line utility for converting text to audio.",
     author="Buster Technologies",
     license="MIT",
