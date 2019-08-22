@@ -1,7 +1,7 @@
 # !/usr/bin/env python3
 
 from setuptools import setup
-from blogger import __version__
+
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -9,7 +9,7 @@ with open("README.md", "r") as fh:
 setup(
     name="blogger",
     packages=[],
-    version=__version__,
+    version="0.1.3",
     setup_requires=["wheel"],
     description="Command line utility for converting text to speech.",
     long_description=long_description,
