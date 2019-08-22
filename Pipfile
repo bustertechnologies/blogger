@@ -7,10 +7,10 @@ name = "pypi"
 pytest = ">=2.8.0,<=3.10.1"
 tox = "*"
 detox = "*"
-click = "==7.*"
 
 [packages]
 blogger = {editable = true,path = "."}
+click = "==7.*"
 colorama = "==0.*"
 gTTS = "==2.0.*"
 beautifulsoup4 = "==4.*"
