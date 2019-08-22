@@ -3,12 +3,17 @@
 from setuptools import setup
 from blogger import __version__
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
 setup(
     name="blogger",
     packages=[],
     version=__version__,
-    setup_requires=['wheel'],
-    description="Command line utility for converting text to audio.",
+    setup_requires=["wheel"],
+    description="Command line utility for converting text to speech.",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     author="Buster Technologies",
     license="MIT",
     author_email="holden@bustererp.com",
